@@ -1,0 +1,28 @@
+{
+  "name": "simplespamcop",
+  "version": "1.0.0",
+  "description": "Easy note implementation to test if an IP is related to spam in spamcop.net",
+  "main": "simplespamcop.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlospolop-node-apis/node-simplespmacop.git"
+  },
+  "keywords": [
+    "api",
+    "spamcop",
+    "spam",
+    "ip"
+  ],
+  "author": "Carlos Polop <carlospolop@gmail.com> (https://malwareworld.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlospolop-node-apis/node-simplespmacop/issues"
+  },
+  "homepage": "https://github.com/carlospolop-node-apis/node-simplespmacop#readme",
+  "dependencies": {
+    "request": "^2.85.0"
+  }
+}

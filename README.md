@@ -1,4 +1,4 @@
-# Node Simple Spamcop Api
+# Node Simple Spamcop
 
 Use Node to check for malicious IPs in [spamcop](https://www.spamcop.net)
 
