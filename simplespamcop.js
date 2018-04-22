@@ -6,7 +6,7 @@ function checkIP(ip){
         request({url: url}, function (error, response, body) {
             if (error) reject(Error("Error using spamcop: "+error));
             if (body){
-                if (body.indexOf("not listed") != -1) resolve({malicious: false, title: "Not Malicious"});
+                if (body.indexOf("not listed") != -1 || body.indexOf("not entered or incorrect.") != -1) resolve({malicious: false, title: "Not Malicious"});
                 resolve({malicious: true, title: "Spammer"});
             }
         });
